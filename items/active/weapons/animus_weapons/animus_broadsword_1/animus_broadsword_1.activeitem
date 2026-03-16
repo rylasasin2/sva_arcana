@@ -27,9 +27,11 @@
     }
   },
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scripts" : ["/items/active/weapons/melee/arcana_meleeweapon.lua"],
 
   "elementalType" : "physical",
+  "critRate" : 0.04,
+  "critDamage" : 1.40,
 
   "primaryAbilityType" : "arcana_broadswordfast",
   "primaryAbility" : {
@@ -44,5 +46,5 @@
 
   "altAbilityType" : "risingslash",
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/arcana_buildunrandweapon.lua"
 }

@@ -55,9 +55,11 @@
         "fire3": [ "/sfx/melee/swing_spear.ogg" ],
         "fire4": [ "/sfx/melee/swing_hammer.ogg" ]}},
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scripts" : ["/items/active/weapons/melee/arcana_meleeweapon.lua"],
 
   "elementalType" : "physical",
+  "critRate" : 0.03,
+  "critDamage" : 1.40,
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
@@ -217,5 +219,5 @@
         }}},
 
   "altAbilityType" : "heavy_risingslash",
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/arcana_buildunrandweapon.lua"
 }

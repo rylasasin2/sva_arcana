@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "level" : 8,
   "rarity" : "Rare",
-  "description" : "You can sense the darkness flowing inside.",
+  "description" : "You can sense the darkness flowing inside. \n\n^#8c8c8c;Like nature itself, science is indiscriminate. Much was sacrificed for progress, and much is required still.^reset;",
   "shortdescription" : "^#847d8b;Sanctus^reset;",
   "category" : "staff",
   "twoHanded" : true,
@@ -77,19 +77,22 @@
 
   "elementalType" : "arcana_abyss",
 
-  "primaryAbilityType" : "plasmabarrage",
+  "primaryAbilityType" : "elementswarm",
   "primaryAbility" : {
 
     "name" : "Dark Momentum",
-    "maxCastRange" : 36,
+    "maxCastRange" : 20,
+    "energyCost" : 60,
 	
-	"projectileType" : "horizon_projectile_1",
+	"scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/controlprojectile.lua"],
 	
-	"projectileCount" : 24,
-    "projectileDistance" : 12,
+	"projectileType" : "horizon_projectile_1alt",
 	
-    "projectileDelayFirst" : 2.0,
-    "projectileDelayEach" : 0.03,
+	"projectileCount" : 12,
+    "projectileDistance" : 3,
+	
+    "projectileDelayFirst" : 1.0,
+    "projectileDelayEach" : 0.05,
 
     "projectileParameters" : {
       "baseDamage" : 26
@@ -114,15 +117,16 @@
     }
   },
 
-  "altAbilityType" : "plasmabarrage",
+  "altAbilityType" : "elementswarm",
   "altAbility" : {
 
     "name" : "Excelsis",
     "maxCastRange" : 36,
+    "energyCost" : 40,
 	
 	"projectileType" : "horizon_projectile_1",
 	
-	"projectileCount" : 12,
+	"projectileCount" :10,
     "projectileDistance" : 1,
 	
     "projectileDelayFirst" : 0.8,
@@ -151,5 +155,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/arcana_buildunrandweapon.lua"
 }

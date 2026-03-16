@@ -63,8 +63,14 @@ function build(directory, config, parameters, level, seed)
   if config.tooltipKind ~= "base" then
 
     config.tooltipFields = config.tooltipFields or {}
-	config.tooltipFields.critRateLabel = "^shadow;^orange;"..math.floor(configParameter("critRate", 0)*100).."%^reset;"
-	config.tooltipFields.critDamageLabel = "^shadow;^orange;+"..math.max(math.floor(configParameter("critDamage", 0)*100 - 100), 0).."%^reset;"
+	local critRate = configParameter("critRate", 0)
+	if critRate == 0 then
+	  config.tooltipFields.critRateLabel = "^shadow;^#8c8c8c;n/a^reset;"
+	  config.tooltipFields.critDamageLabel = "^shadow;^#8c8c8c;n/a^reset;"
+	else
+	  config.tooltipFields.critRateLabel = "^shadow;^orange;"..math.floor(critRate*100).."%^reset;"
+	  config.tooltipFields.critDamageLabel = "^shadow;^orange;+"..math.max(math.floor(configParameter("critDamage", 0)*100 - 100), 0).."%^reset;"
+	end
     config.tooltipFields.levelLabel = util.round(configParameter("level", 1), 1)
     config.tooltipFields.dpsLabel = util.round((config.primaryAbility.baseDps or 0) * config.damageLevelMultiplier, 1)
     config.tooltipFields.speedLabel = util.round(1 / (config.primaryAbility.fireTime or 1.0), 1)

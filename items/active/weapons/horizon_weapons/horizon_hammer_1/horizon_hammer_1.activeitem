@@ -24,9 +24,11 @@
     }
   },
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scripts" : ["/items/active/weapons/melee/arcana_meleeweapon.lua"],
 
   "elementalType" : "arcana_abyss",
+  "critRate" : 0.07,
+  "critDamage" : 1.66,
 
   "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
@@ -52,5 +54,5 @@
 	"projectileType" : "arcana_explosion_plasma_1_black"
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/arcana_buildunrandweapon.lua"
 }

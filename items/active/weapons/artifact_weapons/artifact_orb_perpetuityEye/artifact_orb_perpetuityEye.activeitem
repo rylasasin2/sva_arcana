@@ -10,7 +10,7 @@
   "tooltipFields" : {"subtitle" : "Orb"},
   "twoHanded" : false,
   "itemTags" : ["weapon","wand","aeon"],
-  "tooltipKind" : "staff",
+  "tooltipKind" : "arcana_staff",
 
   "animation" : "animation.animation",
   "animationParts" : {

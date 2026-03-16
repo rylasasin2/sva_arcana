@@ -34,6 +34,38 @@
     "hAnchor" : "right",
     "wrapWidth" : 126
   },
+  "critRateBoostTitleLabel" : {
+    "type" : "label",
+	"fontSize" : 7.2,
+	"color" : [140, 140, 140],
+    "position" : [152, 106],
+    "hAnchor" : "left",
+    "value" : "^shadow;P.Crit Rate^reset;"
+  },
+  "critRateBoostLabel" : {
+    "type" : "label",
+	"fontSize" : 7.2,
+	"color" : [140, 140, 140],
+    "position" : [215, 106],
+    "hAnchor" : "right",
+    "wrapWidth" : 126
+  },
+  "critDamageBoostTitleLabel" : {
+    "type" : "label",
+	"fontSize" : 7.2,
+	"color" : [140, 140, 140],
+    "position" : [152, 95],
+    "hAnchor" : "left",
+    "value" : "^shadow;P.Crit Dmg.^reset;"
+  },
+  "critDamageBoostLabel" : {
+    "type" : "label",
+	"fontSize" : 7.2,
+	"color" : [140, 140, 140],
+    "position" : [215, 95],
+    "hAnchor" : "right",
+    "wrapWidth" : 126
+  },
   "maxDamageTitleLabel" : {
     "type" : "label",
 	"fontSize" : 7.2,
@@ -83,7 +115,7 @@
   },
   "handednessLabel" : {
     "type" : "label",
-    "position" : [131, 150],
+    "position" : [132, 151],
 	"color" : [140, 140, 140],
     "hAnchor" : "right",
     "centered" : true,
@@ -92,10 +124,10 @@
   },
   "rarityLabel" : {
     "type" : "label",
-    "position" : [131, 145],
+    "position" : [13, 86],
 	"color" : [140, 140, 140],
-    "hAnchor" : "right",
-    "centered" : true,
+    "hAnchor" : "left",
+    "centered" : false,
 	"fontSize" : 4.0,
     "wrapWidth" : 122
   },
@@ -147,6 +179,16 @@
     "type" : "image",
     "position" : [138, 116],
     "file" : "/interface/arcana/arcana_crafting_anvil/critdamage.png"
+  },
+  "icon_critrateboost" : {
+    "type" : "image",
+    "position" : [138, 105],
+    "file" : "/interface/arcana/arcana_crafting_anvil/critrateboost.png"
+  },
+  "icon_critdamageboost" : {
+    "type" : "image",
+    "position" : [138, 94],
+    "file" : "/interface/arcana/arcana_crafting_anvil/critdamageboost.png"
   },
   "icon_money" : {
     "type" : "image",

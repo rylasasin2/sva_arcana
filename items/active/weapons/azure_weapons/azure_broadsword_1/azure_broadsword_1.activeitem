@@ -35,9 +35,11 @@
 	  "fire6" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
 	  }},
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scripts" : ["/items/active/weapons/melee/arcana_meleeweapon.lua"],
 
   "elementalType" : "arcana_azure",
+  "critRate" : 0.04,
+  "critDamage" : 1.42,
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
@@ -275,5 +277,5 @@
   "altAbility": {
     "name": "^#71adc0;Star Key^reset;"},
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/arcana_buildunrandweapon.lua"
 }

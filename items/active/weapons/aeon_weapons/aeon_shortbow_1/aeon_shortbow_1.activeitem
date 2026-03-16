@@ -36,9 +36,12 @@
     }
   },
 
-  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+  "scripts" : ["/items/active/weapons/bow/arcana_bow.lua"],
+  "critRate" : 0.08,
+  "critDamage" : 1.70,
+  "powerCritBoost" : [0.2, 0],
 
-  "primaryAbilityType" : "bowshot",
+  "primaryAbilityType" : "arcana_bowshot",
   "primaryAbility" : {
     "fireOffset" : [0.75, 0],
     "cooldownTime" : 0.1,
@@ -61,7 +64,7 @@
     }
   },
 
-  "altAbilityType" : "bowshot",
+  "altAbilityType" : "arcana_bowshot",
   "altAbility" : {
     "name" : "Split Shot",
     "fireOffset" : [0.75, 0],
@@ -99,5 +102,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildbow.lua"
+  "builder" : "/items/buildscripts/arcana_buildbow.lua"
 }

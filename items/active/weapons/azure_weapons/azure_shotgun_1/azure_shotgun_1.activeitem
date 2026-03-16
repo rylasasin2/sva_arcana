@@ -5,7 +5,7 @@
   "rarity" : "Legendary",
   "description" : "An azurium shotgun, built for high damage at a close distance.",
   "shortdescription" : "^#4b92a9;Lesath^reset;",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "arcana_gun",
   "category" : "shotgun",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","shotgun"],
@@ -44,12 +44,12 @@
   "baseOffset" : [0.3, 0.2],
   "muzzleOffset" : [3.2, 0.4],
 
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "scripts" : ["/items/active/weapons/ranged/arcana_gun.lua"],
 
   "elementalType" : "arcana_azure",
 
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "scripts" : ["/items/active/weapons/ranged/arcana_gunfire.lua"],
     "class" : "GunFire",
 
     "fireTime" : 1.4,
@@ -94,5 +94,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/arcana_buildunrandweapon.lua"
 }

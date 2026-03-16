@@ -2,7 +2,7 @@
   "itemName" : "arcana_back_superstormEPP",
   "price" : 1000,
   "inventoryIcon" : "icon.png",
-  "tooltipKind" : "baseaugment",
+  "tooltipKind" : "arcana_baseaugment",
   "rarity" : "Legendary",
   "pickupQuestTemplates" : [ ],
   "category" : "enviroProtectionPack",

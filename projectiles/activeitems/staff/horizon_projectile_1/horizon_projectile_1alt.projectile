@@ -1,14 +1,14 @@
 {
-  "projectileName" : "horizon_projectile_1",
-  "physics" : "rain",
+  "projectileName" : "horizon_projectile_1alt",
+  "physics" : "laser",
   "timeToLive" : 4,
-  "image" : "horizon_projectile_1.png",
+  "image" : "alt.png",
   "animationCycle" : 0.2,
   "lightColor" : [80, 30, 80],
   "frameNumber" : 1,
-  "speed" : -3,
+  "speed" : 10,
   "power" : 30,
-  "damageKind" : "spear",
+  "damageKind" : "arcana_abyss",
   "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
 
   "fullbright" : true,
@@ -38,5 +38,10 @@
     }
   ],
 
-  "bounces" : 2
+  "scripts" : [ "/projectiles/activeitems/staff/staffprojectile.lua" ],
+
+  "controlMovement" : {
+    "maxSpeed" : 60,
+    "controlForce" : 30
+  }
 }

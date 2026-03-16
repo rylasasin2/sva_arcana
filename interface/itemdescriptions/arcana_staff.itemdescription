@@ -44,14 +44,13 @@
   "altAbilityLabel" : {
     "type" : "label",
 	"fontSize" : 6.0,
-	"color" : [140, 140, 140],
     "position" : [152, 139],
     "hAnchor" : "left",
     "wrapWidth" : 126
   },
   "handednessLabel" : {
     "type" : "label",
-    "position" : [131, 150],
+    "position" : [132, 151],
 	"color" : [140, 140, 140],
     "hAnchor" : "right",
     "centered" : true,
@@ -60,10 +59,10 @@
   },
   "rarityLabel" : {
     "type" : "label",
-    "position" : [131, 145],
+    "position" : [13, 86],
 	"color" : [140, 140, 140],
-    "hAnchor" : "right",
-    "centered" : true,
+    "hAnchor" : "left",
+    "centered" : false,
 	"fontSize" : 4.0,
     "wrapWidth" : 122
   },
