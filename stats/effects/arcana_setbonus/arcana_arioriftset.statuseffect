@@ -1,0 +1,22 @@
+{
+  "name" : "arcana_arioriftset",
+  "effectConfig" : {
+  
+    "set" : "arcana_ariorift",
+	"minParts" : 3,
+    "statModifiers" : [
+    ],
+    "status" : [ "runboostaugment" ],
+	"weaponBuff" : {
+      "tags" : ["none"],
+      "modifiers" : [
+      ]
+	}
+  },
+  "defaultDuration" : 120.0,
+
+  "scripts" : [
+    "arcana_setbonus.lua"
+  ],
+  "scriptDelta" : 30
+}

@@ -1,10 +1,10 @@
 {
   "itemName" : "arcana_bar_animaBar",
-  "price" : 210,
+  "price" : 200,
   "rarity" : "Legendary",
   "category" : "craftingMaterial",
   "inventoryIcon" : "arcana_bar_animaBar.png",
-  "description" : "An anima chunk, can be used to craft useful equipment.",
-  "shortdescription" : "Anima Chunk",
+  "description" : "An solid crystal pulsing with life, can be used to craft Anima equipment. ^orange;[T7]^reset;",
+  "shortdescription" : "Anima",
   "itemTags" : [ "reagent" ]
 }

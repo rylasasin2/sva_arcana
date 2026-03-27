@@ -2,7 +2,7 @@
   "objectName" : "arcana_auto_battery_1",
   "colonyTags" : ["factorypaint", "industrial"],
   "rarity" : "Uncommon",
-  "description" : "^white;A basic power storage unit. ^orange;Can store 800kw of power.^reset;",
+  "description" : "^white;A basic power storage unit. ^orange;Can store 800kWh of power.^reset;",
   "shortdescription" : "^green;[Power]^reset; Basic Battery",
   "subtitle" : "Turn ores into pixels",
   "race" : "generic",

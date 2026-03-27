@@ -75,9 +75,11 @@
     }
   },
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scripts" : ["/items/active/weapons/melee/arcana_meleeweapon.lua"],
 
   "elementalType" : "arcana_lumen",
+  "critRate" : 0.10,
+  "critDamage" : 1.28,
 
   "aimOffset" : -1.0,
 

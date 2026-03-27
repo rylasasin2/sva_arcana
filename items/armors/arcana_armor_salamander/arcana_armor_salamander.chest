@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "chestwear",
-  "description" : "A piece of heavy armor made from obsidian. ^green;+10% Fire res.^reset;",
+  "description" : "A piece of heavy armor made from obsidian. \n\n^orange;Set Bonus:^reset; \nGrants ^green;+25% Fire Resistance^reset;.",
   "shortdescription" : "Aneides Chestplate",
   "tooltipKind" : "arcana_armorbig",
 
@@ -42,11 +42,14 @@
       "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
       "amount" : 7
-    },
+    }
+  ],
+  
+  "statusEffects" : [
+    "arcana_aneidesset",
     {
-      "levelFunction" : "arcana_multiplier_static",
-      "stat" : "fireResistance",
-      "amount" : 0.1
+      "stat" : "arcana_aneides",
+      "amount" : 1
     }
   ],
 

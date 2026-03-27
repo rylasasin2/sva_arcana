@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "headarmour",
-  "description" : "A piece of heavy armor made from obsidian. ^green;+15% Fire res.^reset;",
+  "description" : "A piece of heavy armor made from obsidian. \n\n^orange;Set Bonus:^reset; \nGrants ^green;+25% Fire Resistance^reset;.",
   "shortdescription" : "Aneides Helmet",
   "tooltipKind" : "arcana_armorbig",
 
@@ -34,11 +34,14 @@
       "levelFunction" : "manipulatorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
       "amount" : 5
-    },
+    }
+  ],
+  
+  "statusEffects" : [
+    "arcana_aneidesset",
     {
-      "levelFunction" : "arcana_multiplier_static",
-      "stat" : "fireResistance",
-      "amount" : 0.15
+      "stat" : "arcana_aneides",
+      "amount" : 1
     }
   ],
   

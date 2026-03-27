@@ -15,6 +15,23 @@
 		]
 	},
 	
+	// Spectwing General Merchant
+	{ "op" : "add", "path" : "/arcana_spectwingmerchant",
+		"value" : [
+			[ 0, [
+			  { "item": { "name": "bone" } },
+			  { "item": { "name": "string" }, "rarity": 0.6 },
+			  { "item": { "name": "arcana_farmable_tidenut" }, "rarity": 0.6 },
+			  { "item": { "name": "arcana_farmable_virusac" }, "rarity": 0.6 },
+			  { "item": { "name": "arcana_farmable_tatalot" }, "rarity": 0.6 },
+			  { "item": { "name": "arcana_food_marrowsteep" }, "rarity": 0.6 },
+			  { "item": { "name": "arcana_vitalityPotion" }},
+			  { "item": { "name": "arcana_nether_potion_2" }},
+			  { "item": { "name": "arcana_nether_potion_5" }}
+			] ]
+		]
+	},
+	
 	// Gilten Clothing Merchant
 	{ "op" : "add", "path" : "/arcana_giltenclothes",
 		"value" : [
