@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "headarmour",
-  "description" : "A light scarf that flows with the wind. ^green;+20% non-stackable speed.^reset;",
+  "description" : "A light scarf that flows with the wind. \n\n^orange;Set Bonus:^reset; \nGrants ^green;+20% Run Speed^reset;.",
   "shortdescription" : "Ariorift Scarf",
   "tooltipKind" : "arcana_armorbig",
 
@@ -38,8 +38,12 @@
   ],
   
   "statusEffects" : [
-    "runboostaugment"
-  ],
+    "arcana_arioriftset",
+    {
+      "stat" : "arcana_ariorift",
+      "amount" : 1
+    }
+  ],    
   
   "colorOptions" : [
     // DEFAULT

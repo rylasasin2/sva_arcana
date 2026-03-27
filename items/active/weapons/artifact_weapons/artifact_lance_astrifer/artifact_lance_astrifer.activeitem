@@ -101,9 +101,11 @@
     }
   },
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scripts" : ["/items/active/weapons/melee/arcana_meleeweapon.lua"],
 
   "elementalType" : "arcana_azure",
+  "critRate" : 0.03,
+  "critDamage" : 1.4,
 
   "aimOffset" : -1.0,
 

@@ -10,7 +10,7 @@
   "shortdescription" : "Vitality Potion",
   "effects" : [ [
       {
-        "effect" : "maxhealthscalingboost20",
+        "effect" : "maxhealthscalingboost25",
         "duration" : 60
       },
       {
@@ -20,7 +20,7 @@
   "emote" : "",
   "emitters" : [ "bandageuse" ],
   "blockingEffects" : [
-    "maxhealthscalingboost20",
+    "maxhealthscalingboost25",
 	"salveheal"
   ]
 }

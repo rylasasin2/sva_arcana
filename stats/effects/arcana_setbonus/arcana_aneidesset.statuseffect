@@ -1,0 +1,22 @@
+{
+  "name" : "arcana_aneidesset",
+  "effectConfig" : {
+  
+    "set" : "arcana_aneides",
+	"minParts" : 3,
+    "statModifiers" : [
+	  { "stat" : "fireResistance", "amount" : 0.25 }
+    ],
+	"weaponBuff" : {
+      "tags" : ["none"],
+      "modifiers" : [
+      ]
+	}
+  },
+  "defaultDuration" : 120.0,
+
+  "scripts" : [
+    "arcana_setbonus.lua"
+  ],
+  "scriptDelta" : 30
+}

@@ -1,10 +1,10 @@
 {
   "itemName" : "arcana_bar_morphosisBar",
-  "price" : 210,
+  "price" : 200,
   "rarity" : "Legendary",
   "category" : "craftingMaterial",
   "inventoryIcon" : "arcana_bar_morphosisBar.png",
-  "description" : "A morphosis chunk, can be used to craft useful equipment.",
-  "shortdescription" : "Morphosis Chunk",
+  "description" : "A concentrated morphosis, dangerous to handle and highly reactive. ^orange;[T7]^reset;",
+  "shortdescription" : "Morphosis",
   "itemTags" : [ "reagent" ]
 }

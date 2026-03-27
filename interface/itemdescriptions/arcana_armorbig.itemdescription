@@ -12,21 +12,21 @@
   },
   "objectImage" : {
     "type" : "image",
-    "position" : [40, 127],
+    "position" : [65, 120],
     "file" : "",
     "centered" : true,
-    "maxSize" : [ 46, 59 ],
-    "minSize" : [ 46, 59 ]
+    "maxSize" : [ 40, 50 ],
+    "minSize" : [ 40, 50 ]
   },
   "descriptionBack" : {
     "type" : "image",
-    "position" : [8, 2],
+    "position" : [8, 0],
     "file" : "/interface/tooltips/arcana_armorbigdesc.png"
   },
   "descriptionLabel" : {
     "type" : "label",
-    "position" : [16, 72],
-    "wrapWidth" : 122,
+    "position" : [16, 59],
+    "wrapWidth" : 182,
 	"fontSize" : 7.2,
     "hAnchor" : "left",
     "vAnchor" : "top"
@@ -64,9 +64,9 @@
     "scissoring" : false,
     "type" : "list",
     "fillDown" : true,
-    "position" : [6, 161],
+    "position" : [65, 162],
     "schema" : {
-      "spacing" : [0, 1],
+      "spacing" : [0, 2],
       "memberSize" : [999, 15],
       "listTemplate" : {
         "statusLabel" : {
@@ -85,8 +85,8 @@
         "backgroundImage" : {
           "scissoring" : false,
           "type" : "image",
-          "position" : [61, 0],
-          "file" : "/interface/tooltips/arcana_statlistback.png"
+          "position" : [57, 0],
+          "file" : "/interface/tooltips/arcana_statlistbackalt.png"
         }
       }
     }

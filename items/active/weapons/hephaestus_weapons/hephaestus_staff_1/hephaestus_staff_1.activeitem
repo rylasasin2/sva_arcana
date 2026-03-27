@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "level" : 2,
   "rarity" : "Common",
-  "description" : "Flame-infused staff of the ancient fire.",
+  "description" : "Flame-infused staff of the ancient fire. ^gray;Fire was the most efficient element for the mages to master, for it granted immediate power.^reset;",
   "shortdescription" : "^#ffab96;Cinderflower^reset;",
   "category" : "staff",
   "tooltipFields" : {"subtitle" : "Longstaff"},

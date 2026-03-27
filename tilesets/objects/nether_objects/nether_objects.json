@@ -5,7 +5,7 @@
 
     },
  "spacing":0,
- "tilecount":45,
+ "tilecount":47,
  "tileheight":256,
  "tileproperties":
     {
@@ -368,6 +368,22 @@
          "imagePositionY":"0",
          "object":"arcana_nether_deco_3",
          "tilesetDirection":"right"
+        },
+     "45":
+        {
+         "\/\/shortdescription":"",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"arcana_nether_stall_1",
+         "tilesetDirection":"right"
+        },
+     "46":
+        {
+         "\/\/shortdescription":"",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"arcana_nether_stall_2",
+         "tilesetDirection":"right"
         }
     },
  "tiles":
@@ -551,6 +567,14 @@
      "44":
         {
          "image":"arcana_nether_deco_3.png"
+        },
+     "45":
+        {
+         "image":"arcana_nether_stall_1.png"
+        },
+     "46":
+        {
+         "image":"arcana_nether_stall_2.png"
         }
     },
  "tilewidth":188

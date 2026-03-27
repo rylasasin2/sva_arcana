@@ -1,6 +1,6 @@
 {
   "itemName" : "bleuark_assaultRifle_1",
-  "price" : 1000,
+  "price" : 1600,
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "A golden rifle made from Atla gold.",
@@ -38,18 +38,20 @@
   "baseOffset" : [1.2, 0.25],
   "muzzleOffset" : [2.0, 0.4],
 
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "scripts" : ["/items/active/weapons/ranged/arcana_gun.lua"],
 
   "elementalType" : "physical",
+  "critRate" : 0.02,
+  "critDamage" : 1.60,
 
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "scripts" : ["/items/active/weapons/ranged/arcana_gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.06,
-    "baseDps" : 62.0,
+    "fireTime" : 0.05,
+    "baseDps" : 63.0,
     "energyUsage" : 44.0,
-    "inaccuracy" : 0.04,
+    "inaccuracy" : 0.03,
 
     "projectileCount" : 1,
     "fireType" : "auto",
@@ -79,7 +81,7 @@
         "allowFlip" : false
       },
       "cooldown" : {
-        "duration" : 0.15,
+        "duration" : 0.12,
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : true,
@@ -131,7 +133,7 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "builder" : "/items/buildscripts/arcana_buildunrandweapon.lua",
   "upgradeParameters" : {
     "inventoryIcon" : "upgraded.png",
     "animationParts" : {

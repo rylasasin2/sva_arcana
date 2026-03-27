@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "legwear",
-  "description" : "A pair of light leggings for quick traversing. ^green;+20% non-stackable speed.^reset;",
+  "description" : "A pair of light leggings for quick traversing. \n\n^orange;Set Bonus:^reset; \nGrants ^green;+20% Run Speed^reset;.",
   "shortdescription" : "Ariorift Leggings",
   "tooltipKind" : "arcana_armorbig",
 
@@ -37,8 +37,12 @@
   ],
   
   "statusEffects" : [
-    "runboostaugment"
-  ],
+    "arcana_arioriftset",
+    {
+      "stat" : "arcana_ariorift",
+      "amount" : 1
+    }
+  ],   
 
   "colorOptions" : [
     // DEFAULT
